@@ -4,7 +4,68 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Contact</title>
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.7/css/uikit.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body></body>
+  <body>
+    <nav class="uk-navbar-container" uk-navbar>
+      <div class="uk-navbar-left">
+        <a class="uk-navbar-item uk-logo" href="#">POWERPUFF GIRLS </a>
+        <div class="uk-navbar-right">
+          <ul class="uk-navbar-nav">
+            <li>
+              <a href="./login.html">
+                LOGIN
+              </a>
+            </li>
+            <li>
+              <a href="./contact.html">
+                CONTACT
+              </a>
+            </li>
+          </ul>
+          <div class="uk-navbar-item">
+            <button class="uk-button uk-button-default">
+              Te gustan las Chicas Superpoderosas?
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="uk-position-relative uk-visible-toggle uk-light"
+      tabindex="-1"
+      uk-slideshow
+    >
+      <ul class="uk-slideshow-items">
+        <li>
+          <img src="images/powerpuffgirls.jpg" alt="" uk-cover />
+        </li>
+        <li>
+          <img src="images/beebo.jpg" alt="" uk-cover />
+        </li>
+        <li>
+          <img src="images/him.jpg" alt="" uk-cover />
+        </li>
+      </ul>
+
+      <a
+        class="uk-position-center-left uk-position-small uk-hidden-hover"
+        href="#"
+        uk-slidenav-previous
+        uk-slideshow-item="previous"
+      ></a>
+      <a
+        class="uk-position-center-right uk-position-small uk-hidden-hover"
+        href="#"
+        uk-slidenav-next
+        uk-slideshow-item="next"
+      ></a>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.7/js/uikit.min.js"></script>
+  </body>
 </html>
